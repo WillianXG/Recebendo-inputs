@@ -1,0 +1,75 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background: url(https://wallpaperaccess.com/full/7270362.gif) no-repeat bottom center scroll;
+    background-position: 50% 50%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.inputsBim{
+    display: grid;
+    justify-content: center;
+    font-size: 15px;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+}
+
+input{
+    background-color: rgb(249, 148, 165);
+    border-radius: 5px;
+    box-shadow: none;
+    border:currentColor ;
+    height: 25px;
+    text-decoration: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: gray;
+    border: gray;
+    border-radius: 10px;
+    width: 90px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover{
+    background-color: rgb(59, 59, 59);
+    border-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin: 30px;
+}
+
+.res{
+    background-color: aqua;
+    height: 70px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
