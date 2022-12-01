@@ -6,9 +6,7 @@ html{
     padding: 0;
     text-align: center;
     color: white;
-    background: url(https://wallpaperaccess.com/full/7270362.gif) no-repeat bottom center scroll;
     background-position: 50% 50%;
-    background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -31,23 +29,13 @@ input{
     border-radius: 5px;
     box-shadow: none;
     border:currentColor ;
-    height: 25px;
+    height: 35px;
+    width: 195px;
     text-decoration: none;
+    margin: 5px;
 }
 
-.buttons{
-    display: flex;
-    justify-content: center;
-}
 
-.btn{
-    background-color: gray;
-    border: gray;
-    border-radius: 10px;
-    width: 90px;
-    height: 50px;
-    font-family: 'Poppins', sans-serif;
-}
 
 .btn:hover{
     background-color: rgb(59, 59, 59);
